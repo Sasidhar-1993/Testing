@@ -172,7 +172,7 @@ message requests from Facebook accounts.</string>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Qwo-XK-fhD">
-                                <rect key="frame" x="20" y="804" width="374" height="88"/>
+                                <rect key="frame" x="20" y="788" width="374" height="88"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EML-XU-TQD">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="44"/>
@@ -194,20 +194,33 @@ message requests from Facebook accounts.</string>
                                     </button>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRz-jA-a54">
+                                <rect key="frame" x="0.0" y="776" width="414" height="2"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="rkT-wM-6DC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6Kg-Bp-ZI0" secondAttribute="trailing" constant="20" symbolic="YES" id="4ua-fZ-iw6"/>
+                            <constraint firstItem="Qwo-XK-fhD" firstAttribute="top" secondItem="hRz-jA-a54" secondAttribute="bottom" constant="10" id="790-9C-UHN"/>
                             <constraint firstItem="6Kg-Bp-ZI0" firstAttribute="top" secondItem="dQy-J0-ZmZ" secondAttribute="bottom" constant="30" id="7Mu-eu-xc9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qwo-XK-fhD" secondAttribute="trailing" constant="20" id="JhQ-WH-Ogv"/>
                             <constraint firstItem="dQy-J0-ZmZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="N2j-rn-GRu"/>
                             <constraint firstItem="dQy-J0-ZmZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="P6F-tA-KmZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hRz-jA-a54" secondAttribute="trailing" id="U6S-2G-5Y0"/>
                             <constraint firstItem="9vw-ur-bki" firstAttribute="top" secondItem="6Kg-Bp-ZI0" secondAttribute="bottom" constant="20" id="VQH-8p-ZVc"/>
-                            <constraint firstAttribute="bottom" secondItem="Qwo-XK-fhD" secondAttribute="bottom" constant="4" id="avS-ER-nGi"/>
+                            <constraint firstAttribute="bottom" secondItem="Qwo-XK-fhD" secondAttribute="bottom" constant="20" id="avS-ER-nGi"/>
                             <constraint firstItem="9vw-ur-bki" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dCh-dD-fxk"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9vw-ur-bki" secondAttribute="trailing" constant="20" id="f1s-sL-n72"/>
                             <constraint firstItem="Qwo-XK-fhD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="iLr-AT-wgP"/>
+                            <constraint firstItem="hRz-jA-a54" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iqd-es-8nf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dQy-J0-ZmZ" secondAttribute="trailing" constant="100" id="lij-Eg-pcu"/>
                             <constraint firstItem="6Kg-Bp-ZI0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="ugS-vc-5pN"/>
                         </constraints>
